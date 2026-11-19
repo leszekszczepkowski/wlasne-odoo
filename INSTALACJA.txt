@@ -1,0 +1,22 @@
+Wtyczka kursu „Kurs Start: własne Odoo Community z Claude’em” do Claude Code
+
+Sposób 1, z GitHuba (zalecany, łatwe aktualizacje):
+1. Otwórz aplikację Claude, zakładkę Code, folder „odoo-kurs” (lekcja 0.3).
+2. Wpisz:
+   /plugin marketplace add leszekszczepkowski/wlasne-odoo
+   /plugin install wlasne-odoo@szczepkowski-ai
+   /wlasne-odoo:start
+3. Nowa wersja wtyczki: /plugin marketplace update szczepkowski-ai
+
+Sposób 2, z tego pliku ZIP:
+1. Rozpakuj ZIP, na przykład do folderu Pobrane. Powstanie folder „szczepkowski-ai-wtyczki”.
+2. W zakładce Code, w folderze „odoo-kurs” wpisz, podając swoją ścieżkę do rozpakowanego folderu:
+   /plugin marketplace add C:\Users\TWOJA_NAZWA\Downloads\szczepkowski-ai-wtyczki
+   (na Macu: /plugin marketplace add ~/Downloads/szczepkowski-ai-wtyczki)
+3. Potem:
+   /plugin install wlasne-odoo@szczepkowski-ai
+   /wlasne-odoo:start
+Nową wersję pobierzesz wtedy jako nowy ZIP ze strony kursu.
+
+Gdy Claude zapyta, gdzie zainstalować wtyczkę, wybierz tylko folder „odoo-kurs”.
+Pakiet instalacyjny i dodatki pobierasz po zalogowaniu na stronie kursu.

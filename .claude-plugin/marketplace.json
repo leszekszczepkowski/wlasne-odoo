@@ -1,0 +1,12 @@
+{
+  "name": "szczepkowski-ai",
+  "owner": { "name": "Leszek Szczepkowski", "url": "https://szczepkowski.ai" },
+  "metadata": { "description": "Wtyczki do kursów szczepkowski.ai" },
+  "plugins": [
+    {
+      "name": "wlasne-odoo",
+      "source": "./plugins/wlasne-odoo",
+      "description": "Kurs „Własne Odoo Community”: Claude prowadzi Cię od serwera w Hetznerze do pierwszej faktury w KSeF, a potem pomaga w codziennej pracy w Odoo."
+    }
+  ]
+}

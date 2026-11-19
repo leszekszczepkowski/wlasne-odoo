@@ -1,0 +1,19 @@
+{
+  "name": "wlasne-odoo",
+  "description": "Kurs „Własne Odoo Community” (szczepkowski.ai): instalacja krok po kroku, kopie i alarmy, KSeF, plan awaryjny i pomocnicy do codziennej pracy w Odoo.",
+  "version": "0.2.3",
+  "author": {
+    "name": "Leszek Szczepkowski",
+    "url": "https://szczepkowski.ai"
+  },
+  "homepage": "https://szczepkowski.ai",
+  "repository": "https://github.com/leszekszczepkowski/wlasne-odoo",
+  "license": "SEE LICENSE IN LICENCJA.md",
+  "keywords": [
+    "odoo",
+    "odoo-community",
+    "ksef",
+    "hetzner",
+    "kurs"
+  ]
+}
