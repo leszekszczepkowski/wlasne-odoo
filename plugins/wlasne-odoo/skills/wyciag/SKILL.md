@@ -3,7 +3,7 @@ name: wyciag
 description: Wczytanie wyciągu bankowego CSV do Odoo kursanta i uzgodnienie wpłat z fakturami. Używaj, gdy kursant mówi „wczytaj wyciąg”, „rozlicz bank”, „kto zapłacił”.
 ---
 
-Trzymaj się zasad kursu (wczytanych na starcie sesji; jeśli ich nie widzisz, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Działasz przez konektor do Odoo kursanta („Odoo moja firma”).
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu (wczytanych na starcie sesji; jeśli ich nie widzisz, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Działasz przez konektor do Odoo kursanta („Odoo moja firma”).
 
 1. Zapytaj o plik CSV z banku. Mapowanie dla banku kursanta powinno już być (lekcja 6, `/wlasne-odoo:firma`, krok 4). Gdy go nie ma, zrób najpierw ten krok.
 2. Powiedz kursantowi, gdzie w Odoo wczytać plik (dziennik banku → Importuj), albo wczytaj go przez konektor, jeśli moduł importu na to pozwala. Treść wierszy z nazwiskami i numerami kont czytasz tylko w Odoo, nie wypisujesz jej w całości.

@@ -5,7 +5,7 @@ disable-model-invocation: true
 argument-hint: "[komputer | telefon | serwer]"
 ---
 
-Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
 
 Co się stało: $ARGUMENTS. Jeśli puste, zapytaj: komputer (straciłem klucz), telefon (straciłem kody do Odoo) czy serwer (serwer przepadł). Najpierw zawsze sprawdź, czy prostsze wyjście nie wystarcza: kopia klucza w menedżerze haseł, klucz do kodów w menedżerze haseł, kopie serwera w Hetznerze (Backups).
 

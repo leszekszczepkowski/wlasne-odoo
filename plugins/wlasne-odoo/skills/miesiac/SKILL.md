@@ -3,7 +3,7 @@ name: miesiac
 description: Podsumowanie miesiąca z Odoo kursanta dla niego i dla księgowej — sprzedaż, koszty, VAT, nieopłacone, braki w dokumentach. Używaj, gdy kursant pyta „jak wyszedł miesiąc”, „co wysłać księgowej”, „zamknięcie miesiąca”.
 ---
 
-Trzymaj się zasad kursu (wczytanych na starcie sesji; jeśli ich nie widzisz, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Działasz przez konektor do Odoo kursanta („Odoo moja firma”). Tylko czytasz.
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu (wczytanych na starcie sesji; jeśli ich nie widzisz, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Działasz przez konektor do Odoo kursanta („Odoo moja firma”). Tylko czytasz.
 
 Zapytaj o miesiąc (domyślnie poprzedni). Pokaż:
 1. Sprzedaż: liczba faktur, netto, VAT, brutto; faktury bez numeru KSeF albo z błędem KSeF.

@@ -4,7 +4,7 @@ description: Bezpieczna aktualizacja Odoo kursanta do najnowszej wersji pakietu 
 disable-model-invocation: true
 ---
 
-Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
 
 1. Najpierw powiedz, co się zmieni: `git fetch` w `/opt/odoo-pakiet` i lista zmian (`git log --oneline HEAD..origin`).
 2. Po „tak” w tmux: `cd /opt/odoo-pakiet && ./hosting/aktualizuj.sh 2>&1 | tee aktualizacja.log`.

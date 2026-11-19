@@ -4,7 +4,7 @@ description: Lekcja 6, część 1 kursu „Własne Odoo Community” — dane fi
 disable-model-invocation: true
 ---
 
-Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
 
 Działasz w Odoo kursanta przez konektor do Odoo kursanta („Odoo moja firma”). Jeśli konektora nie ma, odeślij do `/wlasne-odoo:konektor`. Zrób kroki po kolei; kursant może pominąć krok, którego dziś nie potrzebuje.
 

@@ -3,7 +3,7 @@ name: haslo
 description: Hasło administratora Odoo albo hasło do kopii (restic) z serwera kursanta otwarte w Notatniku na jego komputerze, bez pokazywania go Claude'owi i bez terminala; także wgranie hasła do kopii na nowy serwer. Używaj, gdy kursant mówi „pokaż hasło administratora”, „hasło do kopii”, „gdzie jest hasło do Odoo”, w lekcji 3 i 4 oraz przy odtworzeniu na nowym serwerze.
 ---
 
-Trzymaj się zasad kursu (wczytanych na starcie sesji; jeśli ich nie widzisz, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`).
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu (wczytanych na starcie sesji; jeśli ich nie widzisz, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`).
 
 Kursant pracuje tylko w aplikacji Claude. Nie każ mu otwierać PowerShella ani Terminala. Hasło idzie z serwera prosto do pliku `HASLO-przepisz-i-usun.txt` w folderze kursu i otwiera się w Notatniku (na Macu w TextEdit). Ty go nie widzisz: skrypt nic nie wypisuje, a strażnik nie pozwala otworzyć tego pliku.
 

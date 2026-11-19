@@ -3,7 +3,7 @@ name: bank
 description: Podłączenie banku do Odoo kursanta przez Enable Banking (wyciągi pobierane same, bez plików CSV): konto i aplikacja w Enable Banking, plik .pem, „Połącz bank”, odnowienie zgody. Używaj, gdy kursant mówi „podłącz bank”, „Enable Banking”, „żeby wyciągi szły same”, „zgoda banku wygasa”.
 ---
 
-Trzymaj się zasad kursu (wczytanych na starcie sesji; jeśli ich nie widzisz, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje. Działasz przez konektor do Odoo kursanta („Odoo moja firma”); jeśli go nie ma, odeślij do `/wlasne-odoo:konektor`.
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu (wczytanych na starcie sesji; jeśli ich nie widzisz, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje. Działasz przez konektor do Odoo kursanta („Odoo moja firma”); jeśli go nie ma, odeślij do `/wlasne-odoo:konektor`.
 
 Enable Banking to licencjonowany pośrednik (AISP), który przez PSD2 łączy się z ponad 2500 bankami w Europie, w tym z PKO BP, Pekao, Santanderem, mBankiem, ING, Millennium i Aliorem. Login do banku nigdy nie trafia do Odoo ani do Ciebie: kursant loguje się na stronie swojego banku, a zgoda trwa do 180 dni (zależnie od banku).
 

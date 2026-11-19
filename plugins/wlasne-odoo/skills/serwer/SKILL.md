@@ -4,7 +4,7 @@ description: Lekcja 1 kursu „Własne Odoo Community” — klucz SSH do serwer
 disable-model-invocation: true
 ---
 
-Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
 
 ## Krok 1. Klucz do serwera
 1. Sprawdź, czy istnieje `~/.ssh/odoo_hetzner`. Jeśli tak, nie nadpisuj go, tylko użyj.

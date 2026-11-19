@@ -4,7 +4,7 @@ description: Zmiana adresu Odoo kursanta (z próbnego na adres firmy albo po lit
 disable-model-invocation: true
 ---
 
-Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
 
 1. Sprawdź jak w kroku 1 polecenia `/wlasne-odoo:instalacja`, że nowy adres wskazuje na serwer. Bez tego nie zmieniaj niczego.
 2. Zmień adres skryptem wtyczki (zmienia tylko linię DOMAIN w `.env` i pokazuje ją przed i po, bez reszty pliku): `ssh odoo 'bash -s' -- NOWY_ADRES < "${CLAUDE_PLUGIN_ROOT}/scripts/zmien-adres.sh"`. Pliku `.env` nie otwieraj sam.

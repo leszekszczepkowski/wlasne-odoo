@@ -4,7 +4,7 @@ description: Lekcja 6 kursu „Własne Odoo Community” — przełączenie Odoo
 disable-model-invocation: true
 ---
 
-Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
 
 1. Potwierdź, że baza wróciła do kopii „czysta-przed-testami” (krok 4 w `/wlasne-odoo:ksef-test`): w bazie nie ma żadnej faktury, a na firmie puste są pola `l10n_pl_edi_certificate`, `l10n_pl_edi_access_token`, `l10n_pl_edi_refresh_token`, `l10n_pl_edi_session_id`. Jeśli coś się nie zgadza, przerwij.
 2. Pokaż obecną wartość `l10n_pl_edi_ksef.mode` i czekaj na „tak”.

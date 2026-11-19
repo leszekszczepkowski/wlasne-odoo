@@ -4,7 +4,7 @@ description: Lekcja 2 kursu „Własne Odoo Community” — sprawdza adres w DN
 disable-model-invocation: true
 ---
 
-Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu „Własne Odoo Community” (wtyczka wczytuje je na starcie sesji; jeśli nie widzisz ich w rozmowie, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Przeczytaj `moje-odoo.md` w bieżącym folderze, jeśli istnieje; pytaj tylko o dane, których tam brakuje.
 
 Potrzebne dane: adres Odoo (np. odoo.twojafirma.pl), nazwa bazy (małe litery, bez spacji), pełna nazwa firmy, ścieżki do dwóch ZIP-ów ze strony kursu: pakietu instalacyjnego i dodatków (zwykle w Pobranych).
 

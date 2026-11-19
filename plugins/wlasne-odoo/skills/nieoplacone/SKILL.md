@@ -3,7 +3,7 @@ name: nieoplacone
 description: Lista nieopłaconych faktur sprzedaży w Odoo kursanta z dniami po terminie i szkicem przypomnienia dla klienta. Używaj, gdy kursant pyta „kto mi nie zapłacił”, „zaległości”, „przypomnij klientom”.
 ---
 
-Trzymaj się zasad kursu (wczytanych na starcie sesji; jeśli ich nie widzisz, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Działasz przez konektor do Odoo kursanta („Odoo moja firma”). Niczego nie zmieniasz i nic nie wysyłasz bez „tak”.
+Odpowiadaj po polsku od pierwszej wiadomości, także gdy wynik narzędzia jest po angielsku. Trzymaj się zasad kursu (wczytanych na starcie sesji; jeśli ich nie widzisz, przeczytaj `${CLAUDE_PLUGIN_ROOT}/ZASADY.md`). Działasz przez konektor do Odoo kursanta („Odoo moja firma”). Niczego nie zmieniasz i nic nie wysyłasz bez „tak”.
 
 1. Pobierz zatwierdzone faktury sprzedaży nieopłacone lub częściowo opłacone. Tabela: klient, numer, data, termin, dni po terminie, do zapłaty. Na końcu suma i suma po terminie.
 2. Zaproponuj kolejność: najpierw najdłużej po terminie i największe kwoty.
